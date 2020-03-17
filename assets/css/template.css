@@ -1,0 +1,87 @@
+/* Atur Container */
+html, body, #app, .appInti {margin: 0 auto;padding: 0 auto;height: 100%;}
+/* Atur 3 Warna Utama */
+.primarycolor {background-color: #570f1b!important;}.text-primarycolor {color: #570f1b!important;}
+.primarycolor2 {background-color: #880c21!important;}.text-primarycolor2 {color: #880c21!important;}
+.primarycolor3 {background-color: #f2dbbb!important;}.text-primarycolor3 {color: #f2dbbb !important;}
+html {--color1: #570f1b;--color2: #880c21;--color3: #f2dbbb;}
+}
+/* Atur Scrollbar */
+::-webkit-scrollbar{width:7px;background:#eee;height: 8px;border: 1px solid #ddd;}
+::-webkit-scrollbar-thumb{background-color:#575757;border-radius:0px;}
+::-moz-scrollbar{width:8px;background:#FFF}
+::-moz-scrollbar-thumb{background-color:#575757;border-radius:3px}
+/* Atur DragColor */
+::selection {background-color: #ed1c24;color:rgba(225,225,225,0.8);}
+::-moz-selection {background-color: #ed1c24;color:rgba(225,225,225,0.8);}
+::-webkit-selection {background-color: #ed1c24;color:rgba(225,225,225,0.8);}
+/*Atur Cursor*/
+/*html {cursor: url('https://drive.google.com/uc?authuser=0&id=1rMnL0u3GYG8voYD4bA_n8vsPz_ROspsh'), default;}*/
+/*a:hover{cursor: url('https://drive.google.com/uc?authuser=0&id=1bbDBUqM67D3wdl1ayrGpED5HpKWsFxAL'), default;}*/
+/*======================================================*/
+
+/*=======
+HEADER
+========*/
+/*Navbar Lv 1*/
+header{padding: 0;margin: 0;}
+#navlv1{
+    background-color: #570f1b;height: 50px /*40px*/;position: relative;top: -2.2vh;
+    color: #f1f1f1;font-size: 14px;}#navlv1 a{color: #f1f1f1;}#navlv1 a:hover{color: #f2dbbb;}
+#navlv1 ul {padding: 9px 80px;}
+#navlv1 ul li{display: inline-block;}
+#navlv1 ul#navlv1-kiri {float: left;height: 0px}
+#navlv1 ul#navlv1-kanan {float: right;height: 0px}
+#navlv1 ul#navlv1-kiri li{padding-right: 10px;}
+#navlv1 ul#navlv1-kanan li{padding-right: 10px;font-size: 15px;}
+
+/*Navbar Utama*/
+nav{position: relative;top: -2.2vh;padding: 0px 0 80px 0;}
+nav .container-fluid{}
+@media only screen and (min-width: 993px) {
+    .brand-logo {width:100%;margin-top: 5px;}
+    .brand-link {position: absolute;left: 55vh;}
+}
+
+.brand-logo .wadah{padding: 0 10vh;}
+.brand-logo img {width: 70px;display: inline-block;float: left;margin-right: 5px;}
+.brand-logo .text{color: #570f1b;font-weight: bold;font-size: 30px;}
+
+.brand-link ul.navlv2{height: 12vh;line-height:80px;}.brand-link ul i{margin: 0;height: 12vh;line-height:80px;}
+.brand-link ul.navlv2 a{color: #570f1b;font-weight: bold;height: 12vh;}
+.brand-link ul.navlv2 a:hover{background-color: rgba(242, 219, 187, .5);}
+.brand-link ul.navlv2 li.active {border-bottom: 3px solid #570f1b;}
+
+.brand-link ul.dropdown-content {top: -75px;min-width: calc(50%);}
+.brand-link ul.dropdown-content a{height: 100%;font-size: 14px;font-weight: 600;}
+
+/*=======
+MAIN
+=========*/
+.batasJudul {width: 100%;text-align: center;}
+.batasJudul h1 {
+    position: relative;
+    display: inline-block;
+    font-size:36px;font-weight: 600;font-family: "blogger3";
+    color: var(--color1);
+    background:linear-gradient(to right, #ddd 30%, var(--color1) 60%, #ddd 30%) bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    padding: 0 0 15px 0;
+    white-space: nowrap;
+    width: 100%;}
+
+/*=======
+FOOTER
+========*/
+footer{background-color: #232323 !important;}
+footer ul.panah li i{padding: 0px 5px 0 0;position: relative;top: 2px;}
+footer ul.panah li {margin-bottom: 13px;font-size: 15px;}
+footer ul.panah li a:hover{animation: warna .6s infinite}
+@keyframes warna {
+    0%    {color:#9e9e9e;}
+    25%   {color:#eeeeee;}
+    50%   {color:#fafafa;}
+    75%   {color:#eeeeee;}
+    100%  {color:#9e9e9e;}
+}
