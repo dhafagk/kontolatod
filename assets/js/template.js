@@ -47,3 +47,16 @@ jQuery(document).ready(function($) {
         smartSpeed: 450
     });
 });
+
+/*-=========
+->MODAL<-
+===========-*/
+$(document).ready(function(){
+    $('.modal').modal();
+});
+/*-=========
+->SELECT<-
+===========-*/
+$(document).ready(function(){
+    $('select').formSelect();
+});
