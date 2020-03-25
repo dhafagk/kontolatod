@@ -3,6 +3,7 @@
 ul#navigasi li i{padding: 0px 5px 0 0;position: relative;top: 2px;}
 ul#navigasi li {margin-bottom: 5px;font-size: 10px;}
 ul#navigasi li:hover {background-color: rgba(225,225,225,0.6);}
+ul#navigasi li.active {background-color: rgba(225,225,225,0.6);}
 ul#navigasi li a{color: #595959;font-weight: 600;font-size: 14px;}
 ul#navigasi li a:hover{animation: warna 1s infinite;}
 @keyframes warna {
