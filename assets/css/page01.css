@@ -72,3 +72,134 @@ input[type=text]:not(.browser-default):focus:not([readonly]){
     line-height: 22px;
     padding: 10px 16px;
 }
+
+
+/*========================================*/
+
+/*Berita
+==========*/
+#berita .wadahImg {position: relative;}
+#berita .wadahImg img{width: 100%;}
+#berita .judul {color: var(--color2);font-size: 20px;font-family: "sans4";max-height: 65px;overflow: hidden;}
+#berita .wadahKonten:hover .judul{animation: warna 1s infinite;}
+#berita .read {color: #000;font-size: 14px;font-family: "sans4";max-height: 65px;overflow: hidden;}
+
+#berita .foad i{padding: 0px 0px 0 0;position: relative;top: 3px;}
+#berita .foad {margin-bottom: 40px;font-size: 13px;color: #757575;font-weight: 600;}
+#berita .foad:hover{color: #000;font-weight: bold;}
+#berita .segitiga {
+    border-top: solid 40px #388e3c;
+    border-bottom: solid 20px transparent;
+    border-left: solid 25px #388e3c;
+    border-right: solid 25px #388e3c;
+    position: absolute;top: 0;right: 7%;
+    width: 30px;
+}
+#berita .segitiga .text {
+    position: absolute;left: -1.3vh;top: -5.5vh;
+    color: #FFF;font-family: "Blogger2";font-size: 13px;text-align: center;
+}#berita .segitiga .text span:nth-child(2){display: block;margin-top: -4px;}
+
+#berita .pagination li.active {background-color: #880c21;}
+#berita .pagination li:hover{margin-top: -3px;}
+
+/*=========
+Sidebar
+==========*/
+.sidebar .widget {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 35px;
+}
+
+/*Title Widget
+---------------*/
+.sidebar .widget-title {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0 0 20px;
+}
+.sidebar .widget-title > h3 {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: #171717;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 13px;
+    padding: 0 0 13px;
+    margin: 0;
+    border-bottom: 2px solid #ebebeb;
+}
+.sidebar .widget-title > h3:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    background-color: #880c21;
+    margin: 0 0 -2px;
+}
+.sidebar .widget-content {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+/*PopularPost
+---------------*/
+.PopularPosts .post:first-child {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.PopularPosts .post {
+    overflow: hidden;
+    margin: 20px 0 0;
+}
+.PopularPosts .post-image-link {
+    position: relative;
+    width: 80px;
+    height: 65px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    vertical-align: middle;
+    margin: 0 12px 0 0;
+}
+.widget img {
+    max-width: 100%;
+}
+
+.PopularPosts .post-info {
+    overflow: hidden;
+}
+.PopularPosts .post-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6em;
+    margin: 0 0 5px;
+}
+.PopularPosts .post-title a {
+    display: block;
+    color: #171717;
+    transition: color .17s;
+}
+.post-meta {
+    overflow: hidden;
+    color: #aaa;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 0 1px;
+}
+.post-meta i{font-size: 11px;position: relative;top: 1px;}
+.post-meta .post-date {
+    float: left;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
