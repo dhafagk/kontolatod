@@ -203,3 +203,50 @@ Sidebar
     display: inline-block;
     margin: 0 10px 0 0;
 }
+
+
+/*===================================
+Halaman Berita Post
+==============*/
+
+.wdh-breadcrumb a.breadcrumb{color: #aaaaaa;font-size: 12px;}
+.wdh-breadcrumb a.breadcrumb:hover{color: #737373;font-weight: 600;}
+.wdh-breadcrumb a.breadcrumb:before{color: #aaaaaa;font-size: 12px;font-weight: 600; margin: 0;line-height: 27px;}
+
+.post-title {border-bottom: 1px solid #e6e6e6;}
+.post-title h1{line-height: 40px;font-size: 25px;color: #171717;font-weight: 700;margin: 0;}
+.post-title .date{line-height: 40px;font-size: 12px;color: #aaaaaa;font-weight: 600;}
+.post-title .date i{position: relative;top: 1px;font-size: 12px;}
+
+/*-Post Konten*/
+/*--Amankan Size Gambar*/
+.post-konten img {max-width: 100%;margin: auto;}
+.post-konten {}
+
+.post-footer {margin-top: 40px;margin-bottom: 100px !important;}
+.post-footer .post-labels {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+}
+.post-footer .post-labels span, .post-labels a {
+    float: left;
+    height: 23px;
+    background-color: #fff;
+    color: #171717;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+    padding: 0 10px;
+    border: 1px solid #d9d9d9;
+    transition: .3s ease-in-out;
+}
+.post-footer .post-labels span, .post-labels a:hover {
+    background-color: #eb3349 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-color: #eb3349 !important;
+}
